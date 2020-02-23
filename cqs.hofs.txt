@@ -99,14 +99,14 @@
          foldr
 
 
-    _You are now ready to tackle most parts of exercise 14._
+    _You are now ready to tackle most parts of #xercise 14._
 
    
 
 
  4. Review the difference between `foldr` and `foldl` in section 2.8.1.
     You may also find it helpful to look at their implementations in
-    section 2.8.3, which starts on page 133; the implementations are
+    section 2.8.3, which starts on page 135; the implementations are
     at the end.
 
     (a) Do you expect `(foldl + 0 '(1 2 3))` and `(foldr + 0 '(1 2 3))` 
@@ -117,7 +117,7 @@
         `(foldr cons '() '(1 2 3))` to be the same or different?
 
 
-    (c) Look at the initial basis, which is summarized on 159.
+    (c) Look at the initial basis, which is summarized on 161.
         Give one example of a function, other than `+` or `cons`, that
         can be passed as the first argument to `foldl` or `foldr`, such
         that `foldl` _always returns exactly the same result_ as `foldr`.
@@ -128,7 +128,7 @@
         `foldl` _may return a different result_ from `foldr`.
 
 
-    _You are now ready to tackle all parts of exercises 14 and 15._
+    _You are now ready to tackle all parts of Exercises 14 and 15._
 
  5. Read the third [*Lesson in Program Design*](../design/lessons.pdf): 
     Higher-Order Functions.  The lesson mentions a higher-order
@@ -138,9 +138,8 @@
     
 
  6. Review function composition and currying, as described in
-    section 2.7.2, which starts on page 128.  Then judge the
-     _proposed_ properties below, which propose equality of
-     functions, according to these rules:
+    Section 2.7.2.  Then judge the _proposed_ properties below, 
+    which propose equality of functions, according to these rules:
 
        - Assume that names `curry`, `o`, `<`, `*`, `cons`, `even?`,
          and `odd?` have the definitions you would expect, but that
@@ -165,6 +164,6 @@
 
         (o even? (lambda (n) (* 4 n))) == even?
 
-    _You are now ready to tackle the first three parts of exercise 19,
+    _You are now ready to tackle the first three parts of Exercise 19,
     as well as problem **M** below._
     
